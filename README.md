@@ -46,11 +46,11 @@ npm start
 The frontend will be available at http://localhost:3000.
 📌 API Endpoints
 Feature	Endpoint	Method	Description
-AI Image Generator	/api/genAi/generate-image?prompt=<your_prompt>	GET	Generates an AI image based on the prompt
+AI Image Generator :-	/api/genAi/generate-image?prompt=<your_prompt>	GET	Generates an AI image based on the prompt
 
-Recipe Generator	/api/genAi/generate-recipe?ingredients=<ingredient_list>&cuisine=<cuisine>&dietaryRestriction=<dietaryRestriction>	GET	Returns a recipe based on given ingredients
+Recipe Generator	/api/genAi/generate-recipe?ingredients={ingredient_list}&cuisine={cuisine}&dietaryRestriction={dietaryRestriction}	GET	Returns a recipe based on given ingredients
 
-Talk to AI	/api/genAi/ask-ai?prompt=<your_message>	GET	Returns an AI-generated response
+Talk to AI :-	/api/genAi/ask-ai?prompt=<your_message>	GET	Returns an AI-generated response
 
 🤝 Contributing
 Feel free to open issues and submit pull requests! 🚀
