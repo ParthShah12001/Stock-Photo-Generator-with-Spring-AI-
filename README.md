@@ -1,12 +1,16 @@
 AI Multi-Feature App (Spring Boot + React)
 This project is an AI-powered multi-feature application that includes:
+
 ✅ AI Image Generator – Generates images based on user input
+
 ✅ Recipe Generator – Suggests recipes based on ingredients provided by the user
+
 ✅ Talk to AI – Allows users to have conversations with AI
 
 The backend is built using Spring Boot, and the frontend is developed with React.
 
 🚀 Features
+
 🔹 AI Image Generator
 Enter a prompt and generate an AI-generated image.
 
@@ -17,6 +21,7 @@ Provide ingredients, and AI will suggest a recipe based on them.
 Have a conversation with AI by asking questions and getting responses.
 
 🛠️ Setup Instructions
+
 1️⃣ Backend (Spring Boot) Setup
 Clone the repository:
 git clone https://github.com/your-repo/ai-multi-feature-app.git
