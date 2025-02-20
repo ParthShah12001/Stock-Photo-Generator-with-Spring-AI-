@@ -24,7 +24,7 @@ Have a conversation with AI by asking questions and getting responses.
 
 1️⃣ Backend (Spring Boot) Setup
 Clone the repository:
-git clone https://github.com/your-repo/ai-multi-feature-app.git
+git clone https://github.com/ParthShah12001/Stock-Photo-Generator-with-Spring-AI-.git
 cd ai-multi-feature-app/backend
 
 Enter your OpenAI API key in application.properties (Mandatory)
