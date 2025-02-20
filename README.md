@@ -1,59 +1,78 @@
-AI Multi-Feature App (Spring Boot + React)
-This project is an AI-powered multi-feature application that includes:
+# 🚀 AI Multi-Feature App (Spring Boot + React)
 
-✅ AI Image Generator – Generates images based on user input
+An AI-powered multi-feature application that combines **image generation, recipe suggestions, and AI conversations** into one powerful tool! Built with **Spring Boot** for the backend and **React** for the frontend. 🔥
 
-✅ Recipe Generator – Suggests recipes based on ingredients provided by the user
+---
 
-✅ Talk to AI – Allows users to have conversations with AI
+## ✨ Features
 
-The backend is built using Spring Boot, and the frontend is developed with React.
+### ✅ AI Image Generator 🎨  
+🔹 Enter a prompt and generate stunning AI-generated images instantly.
 
-🚀 Features
+### ✅ Recipe Generator 🍽️  
+🔹 Provide ingredients, and AI suggests a delicious recipe just for you!
 
-🔹 AI Image Generator
-Enter a prompt and generate an AI-generated image.
+### ✅ Talk to AI 🤖  
+🔹 Have natural conversations with AI—ask anything and get insightful responses.
 
-🔹 Recipe Generator
-Provide ingredients, and AI will suggest a recipe based on them.
+---
 
-🔹 Talk to AI
-Have a conversation with AI by asking questions and getting responses.
+## 🛠️ Setup Instructions
 
-🛠️ Setup Instructions
-
-1️⃣ Backend (Spring Boot) Setup
-Clone the repository:
-git clone https://github.com/ParthShah12001/Stock-Photo-Generator-with-Spring-AI-.git
-cd ai-multi-feature-app/backend
-
-Enter your OpenAI API key in application.properties (Mandatory)
+### 📌 Backend (Spring Boot) Setup  
+1️⃣ Clone the repository:
+```sh
+ git clone https://github.com/ParthShah12001/Stock-Photo-Generator-with-Spring-AI-.git
+ cd ai-multi-feature-app/backend
+```
+2️⃣ Enter your **OpenAI API key** in `application.properties` (**Mandatory**):
+```properties
 openai.api.key=YOUR_SECRET_KEY
-Run the backend using Maven or your IDE:
-
+```
+3️⃣ Run the backend using Maven or your IDE:
+```sh
 mvn spring-boot:run
-The backend will be available at http://localhost:8080/api/genAi.
+```
+🚀 The backend will be available at: [http://localhost:8080/api/genAi](http://localhost:8080/api/genAi)
 
-2️⃣ Frontend (React) Setup
-Navigate to the frontend directory:
+---
+
+### 📌 Frontend (React) Setup  
+1️⃣ Navigate to the frontend directory:
+```sh
 cd ../frontend
-
-Install dependencies:
+```
+2️⃣ Install dependencies:
+```sh
 npm install
-
-Run the React app:
+```
+3️⃣ Run the React app:
+```sh
 npm start
-The frontend will be available at http://localhost:3000.
-📌 API Endpoints
-Feature	Endpoint	Method	Description
-AI Image Generator :-	/api/genAi/generate-image?prompt=<your_prompt>	GET	Generates an AI image based on the prompt
+```
+🎉 The frontend will be available at: [http://localhost:3000](http://localhost:3000)
 
-Recipe Generator	/api/genAi/generate-recipe?ingredients={ingredient_list}&cuisine={cuisine}&dietaryRestriction={dietaryRestriction}	GET	Returns a recipe based on given ingredients
+---
 
-Talk to AI :-	/api/genAi/ask-ai?prompt=<your_message>	GET	Returns an AI-generated response
+## 🌍 API Endpoints
 
-🤝 Contributing
-Feel free to open issues and submit pull requests! 🚀
+| Feature            | Endpoint | Method | Description |
+|-------------------|---------------------------------------------|--------|-----------------------------------------|
+| 🎨 **AI Image Generator** | `/api/genAi/generate-image?prompt=<your_prompt>` | `GET` | Generates an AI image based on a prompt |
+| 🍽️ **Recipe Generator** | `/api/genAi/generate-recipe?ingredients={ingredient_list}&cuisine={cuisine}&dietaryRestriction={dietaryRestriction}` | `GET` | Returns a recipe based on given ingredients |
+| 🤖 **Talk to AI** | `/api/genAi/ask-ai?prompt=<your_message>` | `GET` | Returns an AI-generated response |
 
-📄 License
-This project is open-source and free to use.
+---
+
+## 🤝 Contributing
+💡 **Want to improve this project?** Feel free to fork the repo, open issues, and submit pull requests! 🚀
+
+---
+
+## 📄 License
+This project is **open-source** and free to use. 🎯
+
+---
+
+💬 **For any questions or suggestions, feel free to reach out!**
+
